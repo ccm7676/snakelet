@@ -22,11 +22,11 @@
 
 .text-container {
     position: absolute;
-    right: 1vh;
+    right: 7%;
     width: 50%;
     border: 0.2vh solid #000000;
-    top: 10vh;
-    height: 40vh;
+    top: 18vh;
+    height: fit-content;
 }
 
 .text-container p {
@@ -41,4 +41,64 @@
     background-color: #001a4b;
     color:#ffffff;
     font-family: monospace;
+}
+
+.code-container{
+    position: absolute;
+    width: calc(100% - 2vh);
+    height: 70%;
+    margin: 1vh;
+    border: 0.2vh solid #ffffff;
+    border-radius: 0.5vh;
+    padding: 1vh;
+}
+
+a {
+    padding: 1vh 4vh;
+    background-color: #bbbbbb;
+    border-radius: 0.5vh;
+    color: #000000;
+}
+
+.code-container .run-btn {
+    position: absolute;
+    background-color: #EFC900;
+   
+    bottom: 1vh;
+    right: 1vh;
+}
+
+.console-container {
+    position: absolute;
+    width: calc(100% - 2vh);
+    height: calc(30% - 3vh);
+    margin: 1vh;
+    border: 0.2vh solid #ffffff;
+    border-radius: 0.5vh;
+    padding: 1vh;
+    top: calc(70% + 1vh);
+}
+
+.next-btn {
+    position: absolute;
+    bottom: 2vh;
+    right: 2vh;
+}
+
+.next-btn.active {
+    background-color: #EFC900;
+}
+
+.prev-btn{
+    position: absolute;
+    left: 2vh;
+    bottom: 2vh;
+    background-color:#EFC900;
+}
+
+input {
+    outline: none;
+    border: none;
+    background-color: #00000000;
+    color: #ffffff;
 }
