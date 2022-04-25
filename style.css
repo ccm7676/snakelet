@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.snake{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    height: fit-content;
+    width: 50%;
+    left:0;
+}
+
+.snake-container {
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 100%;
+}
+
+.text-container {
+    position: absolute;
+    right: 1vh;
+    width: 50%;
+    border: 0.2vh solid #000000;
+    top: 10vh;
+    height: 40vh;
+}
+
+.text-container p {
+    margin: 1vh;
+}
+
+.info-container {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    background-color: #001a4b;
+    color:#ffffff;
+    font-family: monospace;
+}
